@@ -1,18 +1,7 @@
-## Getting Started
+# Simple Transport Services Simulation
+This is one of my lab assignment for my OOP course at HCMIU. Using Dependency Injection and Synchronization to simulate a transport service.
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
-
-## Folder Structure
-
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## About the lab
+<div style = "text-align: justify">
+This project is a simulation of a transport service. There are 3 transport services: Grab, Gojek, and Be with different prices and different number of drivers. There are 3 payment methods: Visa, E-wallet and I-Banking with fee for each method.
+</div>
