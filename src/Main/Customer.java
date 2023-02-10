@@ -19,6 +19,7 @@ public class Customer implements Payable {
         if (visa > 0) PaymentService.createAccount(name, visa, PaymentType.VISA);
         if (e_wallet > 0) PaymentService.createAccount(name, e_wallet, PaymentType.E_WALLET);
         if (i_banking > 0) PaymentService.createAccount(name, i_banking, PaymentType.I_BANKING);
+        // cmd sth
         customers.add(this);
     }
 
